@@ -58,7 +58,6 @@
 #include "svc_internal.h"
 #include "svc_xprt.h"
 #include "rpc_dplx_internal.h"
-#include "rpc_ctx.h"
 #include <rpc/svc_rqst.h>
 #include <rpc/xdr_ioq.h>
 #include <getpeereid.h>
