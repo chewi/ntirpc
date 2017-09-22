@@ -46,9 +46,8 @@
 #define RPC_SERVICE_PORT ((u_short) 2048)
 
 #include <rpc/auth.h>
-#include <rpc/clnt.h>
+#include <rpc/rpc_err.h>
 #include <rpc/xdr.h>
-#include <misc/queue.h>
 
 /*
  * Bottom up definition of an rpc message.
