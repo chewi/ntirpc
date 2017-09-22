@@ -39,7 +39,7 @@ enum svc_event_type {
 };
 
 typedef struct rpc_dplx_lock {
-	struct wait_entry we;
+	struct waitq_entry we;
 	struct {
 		const char *func;
 		int line;
